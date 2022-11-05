@@ -127,11 +127,7 @@ p{
 			&:hover{
 				border-left: 1px solid var(--main-bg-color);
 			}
-			a, a:visited{
-				color: #000;
-				text-decoration: none;
-			}
-			a:hover{
+			div:hover{
 				color: var(--main-bg-color);
 			}
 		}
