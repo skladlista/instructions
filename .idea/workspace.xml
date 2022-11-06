@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="second commit">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="some fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Help/Help.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Help/Help.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/TableOfListSapEwmSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SapEwmSheet/Components/TableOfListSapEwmSheet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/WrittingOffASheet.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Secrets/Secrets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secrets/Secrets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +86,7 @@
       <workItem from="1667329171524" duration="8354000" />
       <workItem from="1667458573278" duration="2098000" />
       <workItem from="1667629653986" duration="139000" />
-      <workItem from="1667762139849" duration="1754000" />
+      <workItem from="1667762139849" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -165,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667631833444</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="some fix">
+      <created>1667764015041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667764015041</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +207,7 @@
     <MESSAGE value="add styles and fix burger menu" />
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="some fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fix" />
   </component>
 </project>
