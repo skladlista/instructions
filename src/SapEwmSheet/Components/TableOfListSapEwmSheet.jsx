@@ -46,10 +46,10 @@ export default function TableOfListSapEwmSheet(props) {
 
         <li
           onClick={() => {
-            TableOfListMenuClick("writing-off-a-sheet");
+            TableOfListMenuClick("unloading__sklad-3037");
           }}
         >
-          <div className="tableOfList__link">Списание листа</div>
+          <div className="tableOfList__link">Передача на ERP склад</div>
         </li>
 
         <li

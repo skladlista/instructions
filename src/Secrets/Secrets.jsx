@@ -12,35 +12,13 @@ export default function Secrets(props) {
         <div className="article__div">
           <ol className="zadacha">
             <li className="article__subtitle">
-              При задаче по ведомости если не находится лист или плавка
-              проверять существование такой плавки. Эта плавка или лист может
-              быть другого сортамента.
-            </li>
-            <li className="article__subtitle">
-              Если даешь старый лист проверять ПЗ
-            </li>
-            <li className="article__subtitle">
-              В конце смены убирать переадресацию
-            </li>
-            <li className="article__subtitle">
               Перед задачей проверять разведчиков
-            </li>
-            <li className="article__subtitle">
-              Задавать строго по ССЗ, чтобы листы с разным ПЗ не перемешивались
-              (даже если одинаковые)
             </li>
             <li className="article__subtitle">
               Проверять ссз на переаттестацию
             </li>
           </ol>
           <ol className="skladLista">
-            <li className="article__subtitle">
-              В конце смены убирать листы из которых сварены карты
-            </li>
-            <li className="article__subtitle">
-              При убирании текста как число не брать метинвест в рассчет, т.к.
-              ломается
-            </li>
             <li className="article__subtitle">
               В колонках дата задачи должен быть формат даты
             </li>
@@ -51,7 +29,7 @@ export default function Secrets(props) {
               Проверять наличие двойников ЕО в складе листа
             </li>
             <li className="article__subtitle">
-              У одной номенклатуры одни параметры толщины, ширины, кп, нд
+              У одной номенклатуры в СКЛАДЕ ЛИСТА должны одни параметры толщины, ширины, кп, нд
             </li>
             <li className="article__subtitle">
               Возможна точка в складе листа в весе (заменять её на запятую)
@@ -61,7 +39,7 @@ export default function Secrets(props) {
             </li>
 
             <li className="article__subtitle">
-              Если висит Склад листа глянуть где последняя ячейка
+              Если висит СКЛАД ЛИСТА глянуть где последняя ячейка или может быть включено УСЛОВНОЕ ФОРМАТИРОВАНИЕ
             </li>
           </ol>
         </div>

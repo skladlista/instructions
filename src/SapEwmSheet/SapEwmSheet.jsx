@@ -3,7 +3,7 @@ import Queue from "./Components/Queue";
 import SapRecertification from "./Components/SapRecertification";
 import ToggleTable from "./Components/ToggleTable";
 import ZadachaPack from "./Components/ZadachaPack";
-import WrittingOffASheet from "./Components/WrittingOffASheet";
+import Sklad3037 from "../Sorter/components/Sklad3037";
 import Allocation from "./Components/Allocation";
 import StornoSheets from "./Components/StornoSheets";
 import AdaptationSupply from "./Components/AdaptationSupply";
@@ -25,7 +25,7 @@ export default function SapEwmSheet(props) {
       <SapRecertification />
       <MoveSheets />
       <ZadachaPack />
-      <WrittingOffASheet />
+      <Sklad3037 />
       <Allocation />
       <StornoSheets />
       <AdaptationSupply />

@@ -5,7 +5,7 @@ export default function ExFilter() {
   return (
     <div id="unloading__sklad-3037" className="article unloading__sklad-3037">
       <p className="article__title">
-        ПЕРЕДАЧА НА НЕ EWM (НАПРИМЕР НА 3037 ДЛЯ СВАРКИ КАРТ)
+        ПЕРЕДАЧА НА ERP склад (НАПРИМЕР НА 3037 ДЛЯ СВАРКИ КАРТ)
       </p>
       <div className="article__div">
         <ol>
@@ -27,7 +27,7 @@ export default function ExFilter() {
             Выбрать процесс ОМ – <span className="bold">Не EWM склад</span>
           </li>
           <li className="article__subtitle">
-            Не EWM склад - <span className="bold">3037</span>
+            Не EWM склад - <span className="bold">(например: 3037)</span>
           </li>
           <li className="article__subtitle">
             Вписать ЕО и нажать{" "}

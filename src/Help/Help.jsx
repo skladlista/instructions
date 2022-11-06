@@ -11,9 +11,9 @@ export default function Help(props) {
       <div className="article__subtitle passwords__subtitle">
         <p className="article__heading">SAP IEP</p>
         <PasswordBlock
-          keyId={"SAPIEP"}
-          login={"AKAPRALOV"}
-          password={"Kav202210@"}
+            keyId={"SAPIEP"}
+            login={"VBEZRUKOV"}
+            password={"574579Qwe&"}
         />
         <PasswordBlock
           keyId={"SAPIEP"}
@@ -24,11 +24,6 @@ export default function Help(props) {
           keyId={"SAPIEP"}
           login={"APROKHOROVA"}
           password={"ZTZA@123"}
-        />
-        <PasswordBlock
-          keyId={"SAPIEP"}
-          login={"VBEZRUKOV"}
-          password={"574579Qwe&"}
         />
       </div>
 
