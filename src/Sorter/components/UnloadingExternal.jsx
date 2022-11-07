@@ -85,10 +85,10 @@ export default function UnloadingExternal() {
               </li>
               <li>
                 На листе <span className="bold"> СКЛАД ЛИСТА</span> установить в
-                колонке <span className="bold">СКЛАД</span>
+                колонке <span className="bold">СКЛАД </span>
                 значение <span className="bold">3027</span> и очистить колонку{" "}
                 <span className="bold">МЕСТО ХРАНЕНИЯ</span> и
-                <span className="bold">УРОВЕНЬ</span>
+                <span className="bold"> УРОВЕНЬ</span>
               </li>
               <li>
                 На листе <span className="bold">СКЛАД ЛИСТА</span> установить в

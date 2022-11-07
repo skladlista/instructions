@@ -115,7 +115,7 @@ export default function TableOfListSorter(props) {
             TableOfListMenuClick("unloading__sklad-3037");
           }}
         >
-          <div className="tableOfList__link">ПЕРЕДАЧА НА НЕ EWM склад</div>
+          <div className="tableOfList__link">ПЕРЕДАЧА НА ERP склад</div>
         </li>
 
         <li

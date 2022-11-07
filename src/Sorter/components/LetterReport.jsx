@@ -31,7 +31,7 @@ export default function LetterReport() {
           <li className="article__subtitle">
             Общее количество листов на складе можно найти в документе{" "}
             <span className="bold">СКЛАД ЛИСТА</span> на листе
-            <span className="bold">ОТЧЕТ</span>. Там в самом низу есть такие
+            <span className="bold"> ОТЧЕТ</span>. Там в самом низу есть такие
             значения (выделены зеленым).
             <br />
             <span>
