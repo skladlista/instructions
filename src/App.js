@@ -11,7 +11,7 @@ import { MenuOnClick } from "./scripts/MenuOnClick";
 import { Routes, Route } from "react-router-dom";
 import OperatorSap from "./OperatorSap/OperatorSap";
 import Secrets from "./Secrets/Secrets";
-import Help from "./Help/Help";
+import Passwords from "./Passwords/Passwords";
 import SapEwmSheet from "./SapEwmSheet/SapEwmSheet";
 import TableOfListSapEwmSheet from "./SapEwmSheet/Components/TableOfListSapEwmSheet";
 import React, {useState} from "react";
@@ -56,7 +56,7 @@ function App() {
           path="/help"
           element={
             <div className="wrapper">
-              <Help setActivePage={setActivePage}/>
+              <Passwords setActivePage={setActivePage}/>
             </div>
           }
         />

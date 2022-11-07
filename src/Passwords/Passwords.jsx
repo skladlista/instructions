@@ -1,8 +1,8 @@
 import PasswordBlock from "./Components/PasswordBlock";
 import "../basicStyles.scss";
-import "./Help.scss";
+import "./Passwords.scss";
 
-export default function Help(props) {
+export default function Passwords(props) {
     window.scrollTo(0,0)
     props.setActivePage('Пароли')
 

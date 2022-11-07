@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="some fix">
+      <change afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Components/PasswordBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passwords/Components/PasswordBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Help.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passwords/Passwords.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Help/Help.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passwords/Passwords.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SapEwmSheet/SapEwmSheet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secrets/Secrets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secrets/Secrets.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Secrets/Secrets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Secrets/Secrets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +99,9 @@
       <workItem from="1667458573278" duration="2098000" />
       <workItem from="1667629653986" duration="139000" />
       <workItem from="1667762139849" duration="4480000" />
-      <workItem from="1667766855690" duration="127000" />
+      <workItem from="1667766855690" duration="647000" />
+      <workItem from="1667798141545" duration="592000" />
+      <workItem from="1667802518546" duration="6206000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -174,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667766737804</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="some fix">
+      <created>1667767081857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667767081857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
