@@ -8,6 +8,9 @@ export default function DeleteCar(props) {
             Найти вагон в ZPRIEM (Планирование приемки ЛП)
           </li>
           <li className="article__subtitle">
+            Если листы уже выгружены, то надо переместить листы на ворота
+          </li>
+          <li className="article__subtitle">
             Зайти во входящую поставку (нажать на номер вагона)
           </li>
           <li className="article__subtitle">Открыть вкладку ЕО</li>
