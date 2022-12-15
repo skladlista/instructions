@@ -12,11 +12,11 @@ import StornoManyCards from "./Components/StornoManyCards";
 import StornoCard from "./Components/StornoCard";
 import NumSF from "./Components/NumSF";
 import Provider from "./Components/Provider";
+import Cogi from "./Components/Cogi";
 
 export default function OperatorSap(props) {
-    window.scrollTo(0,0)
-  props.setActivePage('Оператор-SAP')
-
+  window.scrollTo(0, 0);
+  props.setActivePage("Оператор-SAP");
 
   return (
     <div className="main">
@@ -33,6 +33,7 @@ export default function OperatorSap(props) {
       <StornoManyCards />
       <StornoCard />
       <NumSF />
+      <Cogi />
       <Provider />
     </div>
   );
