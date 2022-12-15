@@ -110,6 +110,14 @@ export default function TableOfListOperatorSap(props) {
 
         <li
           onClick={() => {
+            TableOfListMenuClick("cogi");
+          }}
+        >
+          <div className="tableOfList__link">Обработка ошибок</div>
+        </li>
+
+        <li
+          onClick={() => {
             TableOfListMenuClick("provider");
           }}
         >
