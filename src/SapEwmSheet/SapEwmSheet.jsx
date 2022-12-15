@@ -11,12 +11,12 @@ import AdaptationSheet from "./Components/AdaptationSheet";
 import DeleteCar from "./Components/DeleteCar";
 import ChangeOzm from "./Components/ChangeOzm";
 import Pack from "./Components/Pack";
+import CancelUnload from "./Components/CancelUnload";
 import "./SapEwmSheet.scss";
 
 export default function SapEwmSheet(props) {
-    window.scrollTo(0,0)
-    props.setActivePage('SAP EWM лист')
-
+  window.scrollTo(0, 0);
+  props.setActivePage("SAP EWM лист");
 
   return (
     <div className="main">
@@ -31,6 +31,7 @@ export default function SapEwmSheet(props) {
       <AdaptationSupply />
       <AdaptationSheet />
       <DeleteCar />
+      <CancelUnload />
       <ChangeOzm />
       <Pack />
     </div>

@@ -94,6 +94,14 @@ export default function TableOfListSapEwmSheet(props) {
 
         <li
           onClick={() => {
+            TableOfListMenuClick("cancel-unload");
+          }}
+        >
+          <div className="tableOfList__link">Отмена вагона на складе</div>
+        </li>
+
+        <li
+          onClick={() => {
             TableOfListMenuClick("change-ozm");
           }}
         >
