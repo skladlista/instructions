@@ -13,6 +13,8 @@ import StornoCard from "./Components/StornoCard";
 import NumSF from "./Components/NumSF";
 import Provider from "./Components/Provider";
 import Cogi from "./Components/Cogi";
+import Msc3n from "./Components/Msc3n";
+import Class from "./Components/Class";
 
 export default function OperatorSap(props) {
   window.scrollTo(0, 0);
@@ -34,6 +36,8 @@ export default function OperatorSap(props) {
       <StornoCard />
       <NumSF />
       <Cogi />
+      <Msc3n />
+      <Class />
       <Provider />
     </div>
   );

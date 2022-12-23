@@ -115,6 +115,22 @@ export default function TableOfListOperatorSap(props) {
         >
           <div className="tableOfList__link">Обработка ошибок</div>
         </li>
+        <li
+          onClick={() => {
+            TableOfListMenuClick("msc3n");
+          }}
+        >
+          <div className="tableOfList__link">Просмотр партии</div>
+        </li>
+        <li
+          onClick={() => {
+            TableOfListMenuClick("class");
+          }}
+        >
+          <div className="tableOfList__link">
+            Просмотр классификации материала
+          </div>
+        </li>
       </ul>
     </section>
   );
