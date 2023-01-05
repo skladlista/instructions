@@ -18,7 +18,7 @@ export default function Passwords(props) {
         <PasswordBlock
           keyId={"SAPIEP"}
           login={"AFAZLIDINOVA"}
-          password={"A@ztz5a5"}
+          password={"A@ztz6a6"}
         />
         <PasswordBlock
           keyId={"SAPIEP"}
