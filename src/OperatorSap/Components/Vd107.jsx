@@ -5,12 +5,11 @@ export default function Vd107() {
       <div className="article__div">
         <ol>
           <p className="article__subtitle">
-            ЧТОБЫ ПОСМОТРЕТЬ НОМЕР ПОСЛЕДНЕГО 107 ВД МОЖНО В MIGO В ОКНЕ СЛЕВА
+            Чтобы посмотреть номер последнего 107 вд можно в транзакции MIGO в окне слева
           </p>
           <li className="article__subtitle">
             <p>
-              НАЙТИ И РАСПЕЧАТАТЬ СЧЕТА-ФАКТУР И ЗАПИСАТЬ ПОСЛЕДНИЙ СДЕЛАННЫЙ В
-              БЛОКНОТ В КОНЦЕ
+              Найти и распечатать счета-фактур и записать последний сделанный в блокнот в конце
             </p>
             <ol className="article__list sublist">
               <li>
@@ -39,7 +38,7 @@ export default function Vd107() {
             </ol>
           </li>
           <li className="article__subtitle">
-            <p>ПРОВЕРИТЬ СОЗДАНЫ ЛИ ВХОДЯЩИЕ</p>
+            <p>Проверить созданы ли входящие</p>
             <ol className="article__list sublist">
               <li>
                 <span className="bold">ОТЧЕТ ВХОДЯЩИЕ ПОСТАВКИ</span> для

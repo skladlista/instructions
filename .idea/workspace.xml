@@ -3,13 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="some fix 07.11.2022 №2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/LetterReport.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingAsutl.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingStorno.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Cards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Class.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Class.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/NumSF.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/NumSF.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/StornoCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/StornoCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/StornoManyCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/StornoManyCards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd107.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd107.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd109.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd109.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd309.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd309.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd311.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd311.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd325.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd325.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd343.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd343.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd344.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd344.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/ZadachaLista.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/ZadachaLista.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Zmm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Zmm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SapEwmSheet/Components/Allocation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SapEwmSheet/Components/Allocation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions-sorter&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -104,7 +112,12 @@
       <workItem from="1667766855690" duration="647000" />
       <workItem from="1667798141545" duration="592000" />
       <workItem from="1667802518546" duration="6206000" />
-      <workItem from="1667811222415" duration="3214000" />
+      <workItem from="1667811222415" duration="3403000" />
+      <workItem from="1668489893916" duration="111000" />
+      <workItem from="1671132799927" duration="1705000" />
+      <workItem from="1671262954454" duration="584000" />
+      <workItem from="1671824628364" duration="1248000" />
+      <workItem from="1672903008245" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -204,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667810904334</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="some fix 07.11.2022 №2">
+      <created>1667814761643</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667814761643</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +246,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

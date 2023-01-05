@@ -2,18 +2,18 @@ export default function ZMM() {
   return (
     <div id="zmm" className="article zmm">
       <p className="article__title">
-        ZMM_MBC – МАССОВЫЙ ВВОД ПРИЗНАКОМ ТМЦ (ИЗМЕНЕНИЕ ДАННЫХ У ЛИСТА)
+        ZMM_MBC – МАССОВЫЙ ВВОД ПРИЗНАКОВ ТМЦ (ИЗМЕНЕНИЕ ДАННЫХ У ЛИСТА)
       </p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            ДЛЯ ЛИСТА КЛАСС ПАРТИИ ZTZ_BATCH_WMAP
+            Для карты класс партии ZTZ_BATCH_WMAP
           </li>
           <li className="article__subtitle">
-            ДЛЯ КАРТЫ КЛАСС ПАРТИИ ZTZ_BATCH_MSHEET
+            Для листы класс партии ZTZ_BATCH_MSHEET
           </li>
           <li className="article__subtitle">
-            ВПИСАТЬ КРИТЕРИЙ (ПАРТИЮ, МАТЕРИАЛ И Т.Д.)
+            Вписать критерий (партию, материал и т.д.)
           </li>
         </ol>
       </div>

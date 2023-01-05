@@ -4,12 +4,11 @@ export default function NumSF() {
       <p className="article__title">УЗНАТЬ НОМЕР СЧЕТ-ФАКТУРЫ ПО ПАРТИИ САП</p>
       <div className="article__div">
         <ol>
-          <li className="article__subtitle">ВСТАВИТЬ ПАРТИИ САП В MB51</li>
+          <li className="article__subtitle">Вставить партии сап в mb51</li>
           <li className="article__subtitle">
-            ТАМ ЕСТЬ КОЛОНКА ССЫЛКА И У 107 ВД БУДЕТ В ЭТОЙ КОЛОНКЕ НОМЕР СЧЕТ
-            ФАКТУРЫ
+            Там есть колонка ссылка и у 107 вд будет в этой колонке номер счет фактуры
           </li>
-          <li className="article__subtitle">ВИД НУЖЕН ОСН. МАТЕР</li>
+          <li className="article__subtitle">Вид нужен «Основной материал»</li>
         </ol>
       </div>
     </div>

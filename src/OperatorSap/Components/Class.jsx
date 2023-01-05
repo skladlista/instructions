@@ -7,9 +7,9 @@ export default function Class() {
           <li className="article__subtitle">
             <p>Транзакция MM03</p>
             <ol className={"sublist"}>
-              <li>ВВОД МАТЕРИАЛА</li>
-              <li>РАКУС КЛАССИФИКАЦИЯ (ЕСЛИ НЕТ, ТО ЗНАЧИТ НЕ ЗАВЕДЕНА)</li>
-              <li>ВИД КЛАССА 001 </li>
+              <li>Ввод материала</li>
+              <li>Ракус классификация (если нет, то значит не заведена)</li>
+              <li>Вид класса 001 </li>
             </ol>
           </li>
         </ol>

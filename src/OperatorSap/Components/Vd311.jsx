@@ -5,24 +5,24 @@ export default function Vd311() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            MIGO (ПРОВОДКА ПЕРЕНОСА → ПРОЧИЕ → В ЯЧЕЙКЕ ПРАВЕЕ ДОЛЖНО БЫТЬ 311)
+            MIGO (Проводка переноса → Прочие → В ячейке правее должно быть 311)
           </li>
-          <li className="article__subtitle">ДАТА КАК В АКТЕ</li>
+          <li className="article__subtitle">Дата как в акте</li>
           <li className="article__subtitle">
-            ДОКУМЕНТ МАТЕРИАЛА (С «НОМЕР СКЛАДА» НА «НОМЕР СКЛАДА»)
+            Документ материала (с «номер склада» на «номер склада»)
           </li>
-          <li className="article__subtitle">ТЕКСТ ЗАГОЛОВОК = ПЕРЕМЕЩЕНИЕ</li>
-          <li className="article__subtitle">МАТЕРИАЛ ЗАПОЛНИТЬ</li>
-          <li className="article__subtitle">ЗАВОД = 3000</li>
+          <li className="article__subtitle">Текст заголовок = перемещение</li>
+          <li className="article__subtitle">Материал заполнить</li>
+          <li className="article__subtitle">Завод = 3000</li>
           <li className="article__subtitle">
-            СКЛАД В БЛОКЕ ОТКУДА И В БЛОКЕ КУДА ЗАПОЛНИТЬ. ENTER
+            Склад в блоке откуда и в блоке куда заполнить. enter
           </li>
-          <li className="article__subtitle">СНИЗУ КНОПКА РАСПРЕДЕЛЕНИЕ</li>
+          <li className="article__subtitle">Снизу кнопка распределение</li>
           <li className="article__subtitle">
-            В НОВОМ ОКНЕ ПРОСТАВИТЬ ВЕС И ПАРТИЮ САП
+            В новом окне проставить вес и партию сап
           </li>
           <li className="article__subtitle">
-            НАЖАТЬ ПРОВЕРИТЬ (ВСЕ ДОЛЖНО БЫТЬ ЗЕЛЕНОЕ) И ПРОВЕСТИ
+            Нажать проверить (все должно быть зеленое) и провести
           </li>
         </ol>
       </div>

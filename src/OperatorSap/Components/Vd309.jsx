@@ -5,16 +5,16 @@ export default function Vd309() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            MIGO → ПРОВОДКА ПЕРЕНОСА → ПРОЧИЕ → 311
+            MIGO → Проводка переноса → Прочие → 311
           </li>
           <li className="article__subtitle">
-            ЗАПОЛНИТЬ ДАТУ ДОКУМЕНТА И ДАТУ ПРОВОДКИ
+            Заполнить дату документа и дату проводки
           </li>
           <li className="article__subtitle">
-            ВПИСАТЬ МАТЕРИАЛ ИЗ КОТОРОГО И В КОТОРЫЙ
+            Вписать материал из которого и в который
           </li>
           <li className="article__subtitle">
-            ЗАВОД И СКЛАД (СКЛАД ДОЛЖЕН БЫТЬ НЕ EWM – 3037 НАПРИМЕР)
+            Завод и склад (склад должен быть не EWM – 3037 или 3044 например)
           </li>
         </ol>
       </div>

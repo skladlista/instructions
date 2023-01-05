@@ -5,11 +5,11 @@ export default function Vd343() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            ДЛЯ ПЕРЕМЕЩЕНИЯ ИЗ СВОБОДНОГО ЗАПАСА В БЛОК ЗАПАС
+            Для перемещения из свободного запаса в блок запас
           </li>
           <li className="article__subtitle">
             <span className="bold">
-              ДОЛЖЕН БЫТЬ ERP СКЛАД (3044, 3011 И Т.Д.)
+              Должен быть erp склад (3044, 3011 и т.д.)
             </span>
             )
           </li>

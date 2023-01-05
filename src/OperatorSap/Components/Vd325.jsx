@@ -5,12 +5,9 @@ export default function Vd325() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            ПЕРЕМЕЩЕНИЕ БЛОК-ЗАПАСА{" "}
-            <span className="bold">
-              (НЕ РАБОТАЕТ ДЛЯ ПЕРЕМЕЩЕНИЯ НА EWM СКЛАД)
-            </span>
-            , ДЛЯ ПЕРЕМЕЩЕНИЯ НА EWM СКЛАД НАДО СНАЧАЛА 343, ПОТОМ 311 И ПОТОМ В
-            EWM БЛОКИРОВАТЬ
+            Перемещение блок-запаса
+            <span className="bold"> (не работает для перемещения на EWM склад)</span>
+            , для перемещения на EWM склад надо сначала 343, потом 311 и потом в EWM блокировать
           </li>
         </ol>
       </div>
