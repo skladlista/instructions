@@ -10,6 +10,22 @@ export default function UnloadingExternal() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
+            <p>
+              Перед выгрузкой необходимо проверить ПРОВОДКИ ПЕРЕНОСА (чтобы не
+              было стоп-листов с ВС)
+            </p>
+            <ol type="a" className="sublist">
+              <li>
+                Зайти в САП → Монитор управления складами → Проводки переноса
+              </li>
+              <li>Найти свои листы (искать по ЕО)</li>
+              <li>
+                Если какие-то документы красные → Нажать на этот документ →
+                Кнопка с весами (Проверить) → Сохранить
+              </li>
+            </ol>
+          </li>
+          <li className="article__subtitle">
             <p>Определить платформы, которые поставили под выгрузку</p>
             <ol type="a" className="sublist">
               <li>
