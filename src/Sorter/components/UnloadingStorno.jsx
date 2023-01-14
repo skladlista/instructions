@@ -11,18 +11,22 @@ export default function UnloadingStorno() {
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
-            &middot; Зайти в SAP EWM → Планирование приемки ЛП → Выбрать вагон и нажать
-            ЗАГОЛОВОК → Скопировать ЕО
-            <br/>&middot; Перейти в МОНИТОР → Документы →
-            Складская задача
-            <br/>&middot; В новом окне удалить все значения
-            <span>
-              <img src={deletePicture} alt="" />
-            </span>
-            → Установить
-            галки{" "}<span className="bold">Откр. СЗ, Исходные данные, Целевые данные</span>{" "}
+            <li>
+              Зайти в SAP EWM → Планирование приемки ЛП → Выбрать вагон и нажать
+              ЗАГОЛОВОК → Скопировать ЕО
+            </li>
+            <li>Перейти в МОНИТОР → Документы → Складская задача</li>
+            <li>
+              В новом окне удалить все значения
+              <span>
+                <img src={deletePicture} alt="" />
+              </span>
+            </li>
+            Установить галки{" "}
+            <span className="bold">
+              Откр. СЗ, Исходные данные, Целевые данные
+            </span>{" "}
             → Добавить в ячейку скопированные ЕО через множественный выбор →{" "}
-
             Выполнить (F8)
           </li>
           <li className="article__subtitle">

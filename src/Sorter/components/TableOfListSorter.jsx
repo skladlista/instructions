@@ -14,6 +14,22 @@ export default function TableOfListSorter(props) {
 
         <li
           onClick={() => {
+            TableOfListMenuClick("recertification");
+          }}
+        >
+          <div className="tableOfList__link">ПЕРЕАТТЕСТАЦИЯ ЛИСТА</div>
+        </li>
+
+        <li
+          onClick={() => {
+            TableOfListMenuClick("production__sheet");
+          }}
+        >
+          <div className="tableOfList__link">Добавление задачи листа</div>
+        </li>
+
+        <li
+          onClick={() => {
             TableOfListMenuClick("unloading");
           }}
         >
@@ -128,6 +144,14 @@ export default function TableOfListSorter(props) {
 
         <li
           onClick={() => {
+            TableOfListMenuClick("add-cards");
+          }}
+        >
+          <div className="tableOfList__link">ДОБАВЛЕНИЕ КАРТ В EXCEL</div>
+        </li>
+
+        <li
+          onClick={() => {
             TableOfListMenuClick("unloading__order-of-sheets");
           }}
         >
@@ -140,6 +164,30 @@ export default function TableOfListSorter(props) {
           }}
         >
           <div className="tableOfList__link">ПРИЕМ КАРТ С ВНЕШНЕГО СКЛАДА</div>
+        </li>
+
+        <li
+          onClick={() => {
+            TableOfListMenuClick("comeback__sheet");
+          }}
+        >
+          <div className="tableOfList__link">Вернуть лист из производства</div>
+        </li>
+
+        <li
+          onClick={() => {
+            TableOfListMenuClick("add__sheet__in__start");
+          }}
+        >
+          <div className="tableOfList__link">Задать лист вне очереди</div>
+        </li>
+
+        <li
+          onClick={() => {
+            TableOfListMenuClick("check__cast__test");
+          }}
+        >
+          <div className="tableOfList__link">Разведчики</div>
         </li>
       </ul>
     </section>
