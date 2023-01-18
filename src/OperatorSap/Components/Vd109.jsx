@@ -1,7 +1,7 @@
 export default function Vd109() {
   return (
     <div id="vd109" className="article vd109">
-      <p className="article__title">109 Вид движения</p>
+      <p className="article__title">109 вид движения</p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">

@@ -21,11 +21,18 @@ export default function TableOfListOperatorSap(props) {
           <div className="tableOfList__link">109 ВД</div>
         </li>
         <li
+            onClick={() => {
+              TableOfListMenuClick("vd261");
+            }}
+        >
+          <div className="tableOfList__link">261 ВД Списание под карты</div>
+        </li>
+        <li
           onClick={() => {
             TableOfListMenuClick("vd309");
           }}
         >
-          <div className="tableOfList__link">309 ВД</div>
+          <div className="tableOfList__link">309 ВД измен. материала</div>
         </li>
 
         <li
@@ -33,7 +40,7 @@ export default function TableOfListOperatorSap(props) {
             TableOfListMenuClick("vd311");
           }}
         >
-          <div className="tableOfList__link">311 ВД</div>
+          <div className="tableOfList__link">311 ВД перемещение</div>
         </li>
 
         <li
@@ -41,7 +48,7 @@ export default function TableOfListOperatorSap(props) {
             TableOfListMenuClick("vd343");
           }}
         >
-          <div className="tableOfList__link">343 ВД</div>
+          <div className="tableOfList__link">343 ВД - из блока</div>
         </li>
 
         <li
@@ -49,7 +56,7 @@ export default function TableOfListOperatorSap(props) {
             TableOfListMenuClick("vd344");
           }}
         >
-          <div className="tableOfList__link">344 ВД</div>
+          <div className="tableOfList__link">344 ВД - в блок</div>
         </li>
 
         <li
@@ -57,7 +64,7 @@ export default function TableOfListOperatorSap(props) {
             TableOfListMenuClick("vd325");
           }}
         >
-          <div className="tableOfList__link">325 ВД</div>
+          <div className="tableOfList__link">325 ВД двигать блок-запас</div>
         </li>
 
         <li

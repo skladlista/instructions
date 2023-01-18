@@ -53,7 +53,7 @@ function App() {
         />
 
         <Route
-          path="/help"
+          path="/passwords"
           element={
             <div className="wrapper">
               <Passwords setActivePage={setActivePage}/>

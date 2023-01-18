@@ -37,11 +37,11 @@ export default function Header(props) {
             SAP EWM лист
           </NavLink>
         </div>
-        <div>
-          <NavLink to="help" onClick={props.MenuOnClick}>
-            Пароли
-          </NavLink>
-        </div>
+        {/*<div>*/}
+        {/*  <NavLink to="passwords" onClick={props.MenuOnClick}>*/}
+        {/*    Пароли*/}
+        {/*  </NavLink>*/}
+        {/*</div>*/}
         <div>
           <NavLink to="secrets" onClick={props.MenuOnClick}>
             Нюансы

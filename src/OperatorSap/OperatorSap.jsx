@@ -15,6 +15,7 @@ import Provider from "./Components/Provider";
 import Cogi from "./Components/Cogi";
 import Msc3n from "./Components/Msc3n";
 import Class from "./Components/Class";
+import Vd261 from "./Components/Vd261";
 
 export default function OperatorSap(props) {
   window.scrollTo(0, 0);
@@ -24,6 +25,7 @@ export default function OperatorSap(props) {
     <div className="main">
       <Vd107 />
       <Vd109 />
+      <Vd261 />
       <Vd309 />
       <Vd311 />
       <Vd343 />

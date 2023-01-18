@@ -1,4 +1,5 @@
 import LoginPassCopy from "../../scripts/LoginPassCopy";
+import CopyButton from "../../assets/copy_button.png"
 
 export default function PasswordBlock(props) {
   return (
@@ -6,8 +7,8 @@ export default function PasswordBlock(props) {
       <div className="login-and-pass">
         <div>
           <img
-            width="30px"
-            src="https://avatars.mds.yandex.net/i?id=d83e2997b81d39afde783ab328b6ea7f-5277835-images-thumbs&ref=rim&n=33&w=220&h=150"
+            width="20px"
+            src={CopyButton}
             alt="..."
             onClick={() => {
               LoginPassCopy(
@@ -24,8 +25,9 @@ export default function PasswordBlock(props) {
         </div>
         <div>
           <img
-            width="30px"
-            src="https://avatars.mds.yandex.net/i?id=d83e2997b81d39afde783ab328b6ea7f-5277835-images-thumbs&ref=rim&n=33&w=220&h=150"
+            width="20px"
+            src={CopyButton}
+
             alt="..."
             onClick={() => {
               LoginPassCopy(
