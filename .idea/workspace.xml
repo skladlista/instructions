@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="some fix 05.01.2023">
-      <change afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd261.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/copy_button.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/TableOfListOperatorSap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/TableOfListOperatorSap.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperatorSap/Components/Vd109.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/Components/Vd109.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatorSap/OperatorSap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Passwords/Components/PasswordBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passwords/Components/PasswordBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/copy_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/copy_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/AddCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/AddCards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions/src/OperatorSap/Components",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions/src",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -62,12 +53,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Frontend\2022\Projects\Instructions\src\OperatorSap\Components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src" />
+      <recent name="D:\Frontend\2022\Projects\Instructions\src\OperatorSap\Components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -90,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
@@ -123,7 +114,8 @@
       <workItem from="1671824628364" duration="1248000" />
       <workItem from="1672903008245" duration="4277000" />
       <workItem from="1673769544725" duration="2506000" />
-      <workItem from="1674046591590" duration="1865000" />
+      <workItem from="1674046591590" duration="2062000" />
+      <workItem from="1674110610437" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -237,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672906346948</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="some fix 05.01.2023">
+      <created>1674048508852</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674048508852</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
