@@ -1,44 +1,38 @@
 import ExWarehouseReport from "../../assets/ExWarehouseReport.jpg";
 
-export default function UnloadingExternal() {
+export default function LoadingExternal() {
   return (
     <div
-      id="unloading__from-external"
       className="article unloading__from-external"
     >
-      <p className="article__title">ПЕРЕМЕЩЕНИЕ С ВНЕШНЕГО СКЛАДА</p>
+      <p className="article__title">ПЕРЕМЕЩЕНИЕ НА ВНЕШНИЙ СКЛАД</p>
       <div className="article__div">
         <ol>
           <li className="article__subtitle">
             <p>
-              Перед выгрузкой необходимо проверить ПРОВОДКИ ПЕРЕНОСА (чтобы не
-              было стоп-листов с ВС)
+              Создать задание на погрузку
             </p>
             <ol type="a" className="sublist">
               <li>
-                Зайти в САП → Монитор управления складами → Проводки переноса
+                SAP → Активное планирование для производства → Задание → Создать
               </li>
-              <li>Найти свои листы (искать по партии сап)</li>
               <li>
-                Если какие-то документы красные → Нажать на этот документ →
-                Кнопка с весами (Проверить) → Сохранить
+                Проставляем пункты: вид планирования (ZSSL), плановая дата выполнения, кол-во, толщина стенки, диаметр, класс прочности/марка стали
+              </li>
+              <li>
+                После создания выбираем запас по складским местам и назначаем место отгрузки
               </li>
             </ol>
           </li>
+
           <li className="article__subtitle">
-            <p>Определить платформы, которые поставили под выгрузку</p>
+            <p>Создать и погрузить платформу/машину</p>
             <ol type="a" className="sublist">
               <li>
-                Зайти в САП в{" "}
-                <span className="bold">ZPRIEM (ПЛАНИРОВАНИЕ ПРИЕМКИ ЛП)</span>
+                После того как задание было создано и выбрано место откуда будем грузить машину/универсалку
               </li>
-              <li>
-                Снять галочку с <span className="bold">ВХОДЯЩАЯ ПОСТАВКА</span>
+              <li>SAP → Вход в среду  RF → Внутренний склад → Погрузка/закрытие ТС → погрузка ЛП в ТС → выбираем созданное задание, согласно которому будем перемещать → создаем ТС → загружаем листы → закрыть ТС
               </li>
-              <li>
-                Нажать <span className="bold">Выполнить (F8)</span>
-              </li>
-              <li>Найти нужные платформы</li>
             </ol>
           </li>
           <li className="article__subtitle">

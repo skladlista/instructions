@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="some fix 05.01.2023">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="add restructuring. all positions in sorter block open in separate window">
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/CountRemainderToProduction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/LoadingExternal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/PhoneNumbers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Activate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Activate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/AddSheetInStart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/AddSheetInStart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/ExFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/ExFilter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Sklad3037.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingSkladL027.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Unloading.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingExternal.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions/src/Sorter/components",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -57,12 +63,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter\components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\OperatorSap\Components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -85,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
@@ -120,7 +127,7 @@
       <workItem from="1673769544725" duration="2506000" />
       <workItem from="1674046591590" duration="2062000" />
       <workItem from="1674110610437" duration="1446000" />
-      <workItem from="1674290540347" duration="6895000" />
+      <workItem from="1674290540347" duration="17703000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -248,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674112087653</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add restructuring. all positions in sorter block open in separate window">
+      <created>1674297689868</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674297689868</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +308,7 @@
     <MESSAGE value="some fix 07.11.2022" />
     <MESSAGE value="some fix 07.11.2022 №2" />
     <MESSAGE value="some fix 05.01.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fix 05.01.2023" />
+    <MESSAGE value="add restructuring. all positions in sorter block open in separate window" />
+    <option name="LAST_COMMIT_MESSAGE" value="add restructuring. all positions in sorter block open in separate window" />
   </component>
 </project>

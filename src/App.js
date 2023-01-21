@@ -8,16 +8,19 @@ import "./basicStyles.scss";
 import menuToggle2 from "./scripts/MenuToggle2";
 import menuToggle3 from "./scripts/MenuToggle3";
 import {MenuOnClick} from "./scripts/MenuOnClick";
-import {Routes, Route} from "react-router-dom";
+import {Routes, Route, useNavigate} from "react-router-dom";
 import OperatorSap from "./OperatorSap/OperatorSap";
 import Secrets from "./Secrets/Secrets";
 import Passwords from "./Passwords/Passwords";
 import SapEwmSheet from "./SapEwmSheet/SapEwmSheet";
 import TableOfListSapEwmSheet from "./SapEwmSheet/Components/TableOfListSapEwmSheet";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 function App() {
     const [activePage, setActivePage] = useState()
+    const navigate = useNavigate()
+
+    useEffect( () => navigate("/sorter"),[])
 
     return (
         <div className="App">

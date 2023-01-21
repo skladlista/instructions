@@ -25,6 +25,9 @@ import {Route, Router, Routes} from "react-router-dom";
 import TableOfListSorter from "./components/TableOfListSorter";
 import menuToggle3 from "../scripts/MenuToggle3";
 import React from "react";
+import CountRemainderToProduction from "./components/CountRemainderToProduction";
+import LoadingExternal from "./components/LoadingExternal";
+import PhoneNumbers from "./components/PhoneNumbers";
 
 export default function Sorter(props) {
     window.scrollTo(0, 0);
@@ -177,6 +180,26 @@ export default function Sorter(props) {
                 path="/check_cast_test"
                 element={
                     <CheckCastTest />
+                }
+            />
+
+            <Route
+                path="/count_remainder_to_production"
+                element={
+                    <CountRemainderToProduction />
+                }
+            />
+
+            <Route
+                path="/loading_external"
+                element={
+                    <LoadingExternal />
+                }
+            />
+            <Route
+                path="/phone_numbers"
+                element={
+                    <PhoneNumbers />
                 }
             />
         </Routes>
