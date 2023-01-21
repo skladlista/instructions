@@ -1,12 +1,12 @@
 import L027 from "../../assets/L027.jpg";
 
-export default function UnloadingSkladL027() {
+export default function UnloadingCardsFrom3044() {
   return (
     <div
       id="unloading__unloading-sklad-l027"
       className="article unloading__unloading-sklad-l027"
     >
-      <p className="article__title">ПРИЕМ КАРТ С ВНЕШНЕГО СКЛАДА</p>
+      <p className="article__title">ПРИЕМ КАРТ ИЗ ЦСК</p>
       <div className="article__div">
         <ol>
           {/* для создания слудющих заголовков дублируй li внизу */}
