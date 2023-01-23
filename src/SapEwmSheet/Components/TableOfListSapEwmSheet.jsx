@@ -1,119 +1,97 @@
+import { NavLink } from "react-router-dom";
 import TableOfListMenuClick from "../../scripts/TableOfListMenuClick";
 
-export default function TableOfListSapEwmSheet(props) {
+export default function TableOfListSapEwmSheet() {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    TableOfListMenuClick();
+  }
   return (
     <section className="table-of-list">
       <ul>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("queue");
-          }}
-        >
-          <div className="tableOfList__link">Просмотр очереди</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="queue">
+            Просмотр очереди
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("toggle-table");
-          }}
-        >
-          <div className="tableOfList__link">Переключение RFUI</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="toggle_table">
+            Переключение RFUI
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("sap-recertification");
-          }}
-        >
-          <div className="tableOfList__link">Переаттестация</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="sap_recertification">
+            Переаттестация
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("move-sheets");
-          }}
-        >
-          <div className="tableOfList__link">Переместить листы</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="move_sheets">
+            Переместить листы
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("zadacha-pack");
-          }}
-        >
-          <div className="tableOfList__link">Задача через RPACK</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="zadacha_pack">
+            Задача через RPACK
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("unloading__sklad-3037");
-          }}
-        >
-          <div className="tableOfList__link">Передача на ERP склад</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="unloading_sklad_3037">
+            Передача на ERP склад
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("allocation");
-          }}
-        >
-          <div className="tableOfList__link">Распределение вагонов</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="allocation">
+            Распределение вагонов
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("storno-sheets");
-          }}
-        >
-          <div className="tableOfList__link">Сторнирование листов</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="storno_sheets">
+            Сторнирование листов
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("adaptation-supply");
-          }}
-        >
-          <div className="tableOfList__link">Адаптация поставки</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="adaptation_supply">
+            Адаптация поставки
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("adaptation-sheet");
-          }}
-        >
-          <div className="tableOfList__link">Адаптация листа</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="adaptation_sheet">
+            Адаптация листа
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("delete-car");
-          }}
-        >
-          <div className="tableOfList__link">Снять с ворот</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="delete_car">
+            Снять с ворот
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("cancel-unload");
-          }}
-        >
-          <div className="tableOfList__link">Отмена вагона на складе</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="cancel_unload">
+            Отмена вагона на складе
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("change-ozm");
-          }}
-        >
-          <div className="tableOfList__link">Изменение номенклатуры</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="change_ozm">
+            Изменение номенклатуры
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("pack");
-          }}
-        >
-          <div className="tableOfList__link">Упаковывание листа</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="pack">
+            Упаковывание листа
+          </NavLink>
         </li>
       </ul>
     </section>
