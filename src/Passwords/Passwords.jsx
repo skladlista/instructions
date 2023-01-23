@@ -69,7 +69,7 @@ export default function Passwords(props) {
         <PasswordBlock
           keyId={"account"}
           login={"a.fazliddinova"}
-          password={"A@01112022"}
+          password={"A@01012023"}
         />
       </div>
       <div className="article__subtitle">

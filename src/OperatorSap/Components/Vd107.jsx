@@ -1,15 +1,17 @@
 export default function Vd107() {
   return (
-    <div id="vd107" className="article vd107">
+    <div className="article vd107">
       <p className="article__title">107 ВИД ДВИЖЕНИЯ</p>
       <div className="article__div">
         <ol>
           <p className="article__subtitle">
-            Чтобы посмотреть номер последнего 107 вд можно в транзакции MIGO в окне слева
+            Чтобы посмотреть номер последнего 107 вд можно в транзакции MIGO в
+            окне слева
           </p>
           <li className="article__subtitle">
             <p>
-              Найти и распечатать счета-фактур и записать последний сделанный в блокнот в конце
+              Найти и распечатать счета-фактур и записать последний сделанный в
+              блокнот в конце
             </p>
             <ol className="article__list sublist">
               <li>

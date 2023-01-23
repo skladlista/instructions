@@ -1,142 +1,120 @@
-import { logDOM } from "@testing-library/react";
 import "../OperatorSap.scss";
 import TableOfListMenuClick from "../../scripts/TableOfListMenuClick";
+import { NavLink } from "react-router-dom";
 
 export default function TableOfListOperatorSap(props) {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    TableOfListMenuClick();
+  }
+
   return (
     <section className="table-of-list">
       <ul>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd107");
-          }}
-        >
-          <div className="tableOfList__link">107 ВД</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd107">
+            107 вд
+          </NavLink>
         </li>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd109");
-          }}
-        >
-          <div className="tableOfList__link">109 ВД</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd109">
+            109 ВД
+          </NavLink>
         </li>
-        <li
-            onClick={() => {
-              TableOfListMenuClick("vd261");
-            }}
-        >
-          <div className="tableOfList__link">261 ВД Списание под карты</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd261">
+            261 ВД Списание под карты
+          </NavLink>
         </li>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd309");
-          }}
-        >
-          <div className="tableOfList__link">309 ВД измен. материала</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd309">
+            309 ВД измен. материала
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd311");
-          }}
-        >
-          <div className="tableOfList__link">311 ВД перемещение</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd311">
+            311 ВД перемещение
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd343");
-          }}
-        >
-          <div className="tableOfList__link">343 ВД - из блока</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd343">
+            343 ВД - из блока
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd344");
-          }}
-        >
-          <div className="tableOfList__link">344 ВД - в блок</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd344">
+            344 ВД - в блок
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("vd325");
-          }}
-        >
-          <div className="tableOfList__link">325 ВД двигать блок-запас</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="vd325">
+            325 ВД двигать блок-запас
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("zadacha-lista");
-          }}
-        >
-          <div className="tableOfList__link">Задача листа</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="zadacha_lista">
+            Задача листа
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("zmm");
-          }}
-        >
-          <div className="tableOfList__link">ZMM_MBC</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="zmm">
+            ZMM_MBC
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("cards");
-          }}
-        >
-          <div className="tableOfList__link">Сварка карт</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="cards">
+            Сварка карт
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("storno-many-cards");
-          }}
-        >
-          <div className="tableOfList__link">Сторно карт</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="storno_many_cards">
+            Сторно карт
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("storno-card");
-          }}
-        >
-          <div className="tableOfList__link">Сторно одной карты</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="storno_card">
+            Сторно одной карты
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("num-sf");
-          }}
-        >
-          <div className="tableOfList__link">Номер сф по партии</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="num_sf">
+            Номер сф по партии
+          </NavLink>
         </li>
 
-        <li
-          onClick={() => {
-            TableOfListMenuClick("cogi");
-          }}
-        >
-          <div className="tableOfList__link">Обработка ошибок</div>
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="cogi">
+            Обработка ошибок
+          </NavLink>
         </li>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("msc3n");
-          }}
-        >
-          <div className="tableOfList__link">Просмотр партии</div>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="msc3n">
+            Просмотр партии
+          </NavLink>
         </li>
-        <li
-          onClick={() => {
-            TableOfListMenuClick("class");
-          }}
-        >
-          <div className="tableOfList__link">
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="class">
             Просмотр классификации материала
-          </div>
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="solve_integration_problem">
+            Вывод из блока вручную
+          </NavLink>
         </li>
       </ul>
     </section>
