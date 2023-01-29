@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="add modifications">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="update LoadingExternal.jsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/LoadingExternal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/LoadingExternal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,59 +40,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions/src",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.confiimport ExWarehouseReport from "../../assets/ExWarehouseReport.jpg";
-
-export default function LoadingExternal() {
-  return (
-      <div
-          className="article unloading__from-external"
-      >
-        <p className="article__title">ПЕРЕМЕЩЕНИЕ НА ВНЕШНИЙ СКЛАД</p>
-        <div className="article__div">
-          <ol>
-            <li className="article__subtitle">
-              <p>
-                Создать задание на погрузку
-              </p>
-              <ol type="a" className="sublist">
-                <li>
-                  SAP → Активное планирование для производства → Задание → Создать
-                </li>
-                <li>
-                  Проставляем пункты: вид планирования (ZSSL), плановая дата выполнения, кол-во, толщина стенки, диаметр, класс прочности/марка стали
-                </li>
-                <li>
-                  После создания выбираем запас по складским местам и назначаем место отгрузки
-                </li>
-              </ol>
-            </li>
-
-            <li className="article__subtitle">
-              <p>Создать и погрузить платформу/машину</p>
-              <ol type="a" className="sublist">
-                <li>
-                  После того как задание было создано и выбрано место откуда будем грузить машину/универсалку
-                </li>
-                <li>SAP → Вход в среду  RF → Внутренний склад → Погрузка/закрытие ТС → погрузка ЛП в ТС → выбираем созданное задание, согласно которому будем перемещать → создаем ТС → загружаем листы → закрыть ТС
-                </li>
-              </ol>
-            </li>
-            <li className="article__subtitle">
-              <p>Переместить их по Excel (изменить склад)</p>
-            </li>
-            <li className="article__subtitle">
-              <p>Добавить их в дневной отчёт</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-  );
-}
-gurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -164,6 +116,8 @@ gurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
       <workItem from="1674110610437" duration="1446000" />
       <workItem from="1674290540347" duration="18162000" />
       <workItem from="1674316497420" duration="115000" />
+      <workItem from="1674480341413" duration="911000" />
+      <workItem from="1674970922877" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -305,7 +259,14 @@ gurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
       <option name="project" value="LOCAL" />
       <updated>1674313388822</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update LoadingExternal.jsx">
+      <created>1674480542351</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674480542351</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +314,7 @@ gurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     <MESSAGE value="some fix 05.01.2023" />
     <MESSAGE value="add restructuring. all positions in sorter block open in separate window" />
     <MESSAGE value="add modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="add modifications" />
+    <MESSAGE value="update LoadingExternal.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="update LoadingExternal.jsx" />
   </component>
 </project>
