@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="update LoadingExternal.jsx">
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/SapRecertification.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorter/components/UpdateClassificationInSapEwm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/UnloadingCardsFrom3044.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/Sorter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/TableOfListSorter.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions",
+    "last_opened_file_path": "D:/Frontend/2022/Projects/Instructions/src/Sorter/components",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -50,13 +54,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Frontend\2022\Projects\Instructions\src" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter\components" />
+      <recent name="D:\Frontend\2022\Projects\Instructions\src" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\OperatorSap\Components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -79,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
@@ -117,7 +121,8 @@
       <workItem from="1674290540347" duration="18162000" />
       <workItem from="1674316497420" duration="115000" />
       <workItem from="1674480341413" duration="911000" />
-      <workItem from="1674970922877" duration="11000" />
+      <workItem from="1674970922877" duration="340000" />
+      <workItem from="1675427131672" duration="1314000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -266,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674480542351</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update LoadingExternal.jsx">
+      <created>1674970940233</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674970940233</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
