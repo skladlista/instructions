@@ -11,6 +11,7 @@ import AdaptationSheet from "./Components/AdaptationSheet";
 import DeleteCar from "./Components/DeleteCar";
 import ChangeOzm from "./Components/ChangeOzm";
 import Pack from "./Components/Pack";
+import PackStatuses from "./Components/PackStatuses";
 import CancelUnload from "./Components/CancelUnload";
 import "./SapEwmSheet.scss";
 import { Route, Routes } from "react-router-dom";
@@ -24,6 +25,7 @@ export default function SapEwmSheet(props) {
       <Route path="/" element={<Queue />} />
       <Route path="queue" element={<Queue />} />
       <Route path="toggle_table" element={<ToggleTable />} />
+      <Route path="pack_statuses" element={<PackStatuses />} />
       <Route path="sap_recertification" element={<SapRecertification />} />
       <Route path="move_sheets" element={<MoveSheets />} />
       <Route path="zadacha_pack" element={<ZadachaPack />} />
