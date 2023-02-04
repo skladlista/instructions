@@ -41,6 +41,12 @@ export default function TableOfListSapEwmSheet() {
         </li>
 
         <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="pack_statuses">
+            Идентификаторы в SAP
+          </NavLink>
+        </li>
+
+        <li onClick={topFunction}>
           <NavLink className="tableOfList__link" to="unloading_sklad_3037">
             Передача на ERP склад
           </NavLink>
