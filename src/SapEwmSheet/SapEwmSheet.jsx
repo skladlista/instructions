@@ -15,6 +15,7 @@ import PackStatuses from "./Components/PackStatuses";
 import CancelUnload from "./Components/CancelUnload";
 import "./SapEwmSheet.scss";
 import { Route, Routes } from "react-router-dom";
+import SettingsConnections from "./Components/SettingsConnections";
 
 export default function SapEwmSheet(props) {
   window.scrollTo(0, 0);
@@ -24,6 +25,7 @@ export default function SapEwmSheet(props) {
     <Routes>
       <Route path="/" element={<Queue />} />
       <Route path="queue" element={<Queue />} />
+      <Route path="settings_connections" element={<SettingsConnections />} />
       <Route path="toggle_table" element={<ToggleTable />} />
       <Route path="pack_statuses" element={<PackStatuses />} />
       <Route path="sap_recertification" element={<SapRecertification />} />

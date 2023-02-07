@@ -99,6 +99,12 @@ export default function TableOfListSapEwmSheet() {
             Упаковывание листа
           </NavLink>
         </li>
+
+        <li onClick={topFunction}>
+          <NavLink className="tableOfList__link" to="settings_connections">
+            Настройки для подключений
+          </NavLink>
+        </li>
       </ul>
     </section>
   );
