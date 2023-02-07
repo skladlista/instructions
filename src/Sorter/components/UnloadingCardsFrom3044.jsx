@@ -43,13 +43,17 @@ export default function UnloadingCardsFrom3044() {
             Указать в отчете по выгрузке и в дневном отчете
           </li>
           <li className="article__subtitle">
-            <p>Выгрузить на склад по планшету</p>
-            <ol type="a" className="sublist">
-              <li>
-                SAP → Вход в среду RF → Цех сварки карт → Разгрузка карт →
-                Вписать номер карты → Вписать место → Подтвердить
-              </li>
-            </ol>
+            <details>
+              <summary>
+                <p>Выгрузить на склад по планшету</p>
+              </summary>
+              <ol type="a" className="sublist">
+                <li>
+                  SAP → Вход в среду RF → Цех сварки карт → Разгрузка карт →
+                  Вписать номер карты → Вписать место → Подтвердить
+                </li>
+              </ol>
+            </details>
           </li>
         </ol>
       </div>
