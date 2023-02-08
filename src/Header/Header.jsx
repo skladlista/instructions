@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
 import "./Header.scss"
 
+
+
 export default function Header(props) {
 
         return (
-    <header id="header">
+    <header id="header" >
       <input style={{ display: "none" }} id="menu__toggle" type="checkbox" />
         <label className="menu__btn" htmlFor="menu__toggle" onClick={() => {
             const menu = document.getElementById("menu__toggle2")

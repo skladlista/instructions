@@ -188,5 +188,6 @@ export default function LoadingExternal() {
           </li>
         </ol>
       </div>
+    </div>
   );
 }

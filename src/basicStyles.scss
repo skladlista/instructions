@@ -422,6 +422,11 @@ div:target > div {
 }
 
 @media print {
+
+  .article__title {
+    -webkit-text-fill-color: black}
+
+
   header,
   .table-of-list {
     display: none;
@@ -431,6 +436,7 @@ div:target > div {
     overflow: auto;
     transition: all 0.5s ease-out;
   }
+
 }
 
 @media screen and (max-width: 700px) {
