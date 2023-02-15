@@ -32,12 +32,12 @@ export default function Passwords(props) {
         <PasswordBlock
           keyId={"SAPWMP"}
           login={"AKAPRALOV"}
-          password={"Alx202212@"}
+          password={"Alx202302@"}
         />
         <PasswordBlock
           keyId={"SAPWMQ"}
           login={"AKAPRALOV"}
-          password={"Alx202212@"}
+          password={"Alx202302@"}
         />
       </div>
       <div className="article__subtitle">
