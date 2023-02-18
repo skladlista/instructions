@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/instructions/static/css/main.81b87afc.css",
-    "main.js": "/instructions/static/js/main.07d73d7e.js",
+    "main.css": "/instructions/static/css/main.652d542b.css",
+    "main.js": "/instructions/static/js/main.010af9e3.js",
     "static/js/787.0b68bf1c.chunk.js": "/instructions/static/js/787.0b68bf1c.chunk.js",
     "static/media/rpack.jpg": "/instructions/static/media/rpack.1bdc871618a3b98f4078.jpg",
     "static/media/planning.png": "/instructions/static/media/planning.15f0199819bd313dc41d.png",
@@ -31,14 +31,14 @@
     "static/media/letter-report2.jpg": "/instructions/static/media/letter-report2.8d286869a40c7e23b103.jpg",
     "static/media/logo.svg": "/instructions/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/instructions/index.html",
-    "static/media/chevron-down.svg": "/instructions/static/media/chevron-down.0ae786137eb7c77c3434.svg",
-    "static/media/chevron-right.svg": "/instructions/static/media/chevron-right.9c3fa94abd31d15c03eb.svg",
-    "main.81b87afc.css.map": "/instructions/static/css/main.81b87afc.css.map",
-    "main.07d73d7e.js.map": "/instructions/static/js/main.07d73d7e.js.map",
+    "static/media/chevron-down.svg": "/instructions/static/media/chevron-down.ada80e92d65b4f983752.svg",
+    "static/media/chevron-right.svg": "/instructions/static/media/chevron-right.ac54ca7f194624a8c112.svg",
+    "main.652d542b.css.map": "/instructions/static/css/main.652d542b.css.map",
+    "main.010af9e3.js.map": "/instructions/static/js/main.010af9e3.js.map",
     "787.0b68bf1c.chunk.js.map": "/instructions/static/js/787.0b68bf1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81b87afc.css",
-    "static/js/main.07d73d7e.js"
+    "static/css/main.652d542b.css",
+    "static/js/main.010af9e3.js"
   ]
 }
