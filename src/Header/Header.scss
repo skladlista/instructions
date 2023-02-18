@@ -4,8 +4,10 @@ header {
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: var(--main-bg-color2);
+  background: linear-gradient(271.77deg, #712980 26.92%, #2e357f 95.16%);
+
   background-repeat: no-repeat;
+  border-bottom: 1px solid #5c5c5c;
   nav {
     display: flex;
     height: 80px;
@@ -21,7 +23,7 @@ header {
     font-family: "Roboto", sans-serif;
   }
   a:hover {
-    color: #ffedd1;
+    color: #e37231;
   }
   .header__activePage {
     display: none;
@@ -100,7 +102,17 @@ header {
       padding: 20px 0;
       list-style: none;
       text-align: center;
-      background-color: var(--main-bg-color3);
+      /* From https://css.glass */
+      background: rgba(36, 43, 116, 0.86);
+      border-radius: 16px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(13.5px);
+      -webkit-backdrop-filter: blur(13.5px);
+      border: 1px solid rgba(36, 43, 116, 0.97);
+
+
       div {
         margin-bottom: 20px;
       }
