@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="18.02.2023 update styles">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="25.02.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/CheckSsz.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/Recertification.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions-sorter&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -52,8 +50,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Frontend\2022\Projects\Instructions" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src" />
+      <recent name="D:\Frontend\2022\Projects\Instructions" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\assets" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\SapEwmSheet\Components" />
       <recent name="D:\Frontend\2022\Projects\Instructions\src\Sorter\components" />
@@ -62,7 +60,7 @@
       <recent name="D:\Frontend\2022\Projects\Instructions\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -85,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
@@ -135,7 +133,8 @@
       <workItem from="1676726762751" duration="877000" />
       <workItem from="1677075072407" duration="711000" />
       <workItem from="1677137547011" duration="1351000" />
-      <workItem from="1677302222547" duration="2645000" />
+      <workItem from="1677302222547" duration="4881000" />
+      <workItem from="1677482087855" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676726936184</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="25.02.2023">
+      <created>1677308341014</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677308341014</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +401,7 @@
     <MESSAGE value="update content and add images" />
     <MESSAGE value="15.02.2023 delete check in sklad lista" />
     <MESSAGE value="18.02.2023 update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.02.2023 update styles" />
+    <MESSAGE value="25.02.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.02.2023" />
   </component>
 </project>
