@@ -31,6 +31,7 @@ import PhoneNumbers from "./components/PhoneNumbers";
 import SapRecertification from "./components/SapRecertification";
 import UpdateClassificationInSapEwm from "./components/UpdateClassificationInSapEwm";
 import GetStatusesCards from "./components/GetStatusesCards";
+import CreateWorkProduction from "./components/CreateWorkProduction";
 
 export default function Sorter(props) {
   window.scrollTo(0, 0);
@@ -48,6 +49,11 @@ export default function Sorter(props) {
       <Route path="/storno" element={<UnloadingStorno />} />
       <Route path="/asutl" element={<UnloadingAsutl />} />
       <Route path="/zhd-request" element={<ZhdRequest />} />
+
+      <Route
+        path="/create_work_production"
+        element={<CreateWorkProduction />}
+      />
 
       <Route path="/activate" element={<Activate />} />
       <Route path="/create-new-task" element={<CreateNewTask />} />
