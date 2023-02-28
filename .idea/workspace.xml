@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="25.02.2023">
+    <list default="true" id="06513971-ce59-4a20-94ce-334044f3c39c" name="Changes" comment="27.02.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/ProductionSheet.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorter/components/GetStatusesCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorter/components/GetStatusesCards.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Frontend/2022/Projects/Instructions-sorter&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -134,7 +134,8 @@
       <workItem from="1677075072407" duration="711000" />
       <workItem from="1677137547011" duration="1351000" />
       <workItem from="1677302222547" duration="4881000" />
-      <workItem from="1677482087855" duration="797000" />
+      <workItem from="1677482087855" duration="1093000" />
+      <workItem from="1677590358331" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="Add all project">
       <created>1667291052822</created>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677308341014</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="27.02.2023">
+      <created>1677483003411</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483003411</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +410,7 @@
     <MESSAGE value="15.02.2023 delete check in sklad lista" />
     <MESSAGE value="18.02.2023 update styles" />
     <MESSAGE value="25.02.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.02.2023" />
+    <MESSAGE value="27.02.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.02.2023" />
   </component>
 </project>

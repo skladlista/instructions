@@ -25,7 +25,15 @@ export default function GetStatusesCards() {
         <ol>
           {/* для создания слудющих заголовков дублируй div внизу */}
           <li className="article__subtitle">
-            Выгрузить список карт из SAP EWM в Excel
+            <details>
+              <summary>
+                <p>Выгрузить список карт из SAP EWM в Excel</p>
+              </summary>
+              <ol className="sublist">
+                <li>Найти их в мониторе любым удобным способом и скопировать в Excel</li>
+                <li>Необходимые поля Место, Уровень, Номер карты, Плавка</li>
+              </ol>
+            </details>
           </li>
           <li className="article__subtitle">
             <details>
