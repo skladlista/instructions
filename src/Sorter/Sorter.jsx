@@ -33,6 +33,7 @@ import UpdateClassificationInSapEwm from "./components/UpdateClassificationInSap
 import GetStatusesCards from "./components/GetStatusesCards";
 import CreateWorkProduction from "./components/CreateWorkProduction";
 
+
 export default function Sorter(props) {
   window.scrollTo(0, 0);
   props.setActivePage("Сортировщик-сдатчик");
@@ -41,6 +42,13 @@ export default function Sorter(props) {
     <Routes>
       <Route path="/" element={<CheckSsz />} />
       <Route path="/check-ssz" element={<CheckSsz />} />
+      <Route
+                path="/create_work_production"
+                element={
+                    <CreateWorkProduction />
+                }
+            />
+ 
       <Route path="/recertification-1C" element={<Recertification />} />
       <Route path="/recertification-sap" element={<SapRecertification />} />
       <Route path="/production__sheet" element={<ProductionSheet />} />
@@ -49,6 +57,7 @@ export default function Sorter(props) {
       <Route path="/storno" element={<UnloadingStorno />} />
       <Route path="/asutl" element={<UnloadingAsutl />} />
       <Route path="/zhd-request" element={<ZhdRequest />} />
+
 
       <Route
         path="/create_work_production"
